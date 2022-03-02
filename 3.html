@@ -1,0 +1,4345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/vintage.js"></script>
+
+</head>
+<body>
+    <div id="fccc04ad979e4793800adeacb483066c" class="chart-container" style="width:1600px; height:800px;"></div>
+    <script>
+        var chart_fccc04ad979e4793800adeacb483066c = echarts.init(
+            document.getElementById('fccc04ad979e4793800adeacb483066c'), 'vintage', {renderer: 'canvas'});
+        var option_fccc04ad979e4793800adeacb483066c = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "name": "\u4f5c\u54c1\u6570\u91cf",
+                "legendHoverLink": true,
+                "data": [
+                    232,
+                    3,
+                    0,
+                    1,
+                    3,
+                    0
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "pie",
+                "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Post-Impressionism",
+                        "value": 232
+                    },
+                    {
+                        "name": "Realism",
+                        "value": 3
+                    },
+                    {
+                        "name": "Neo-Impressionism",
+                        "value": 0
+                    },
+                    {
+                        "name": "Japonism",
+                        "value": 1
+                    },
+                    {
+                        "name": "Cloisonnism",
+                        "value": 3
+                    },
+                    {
+                        "name": "Impressionism",
+                        "value": 0
+                    }
+                ],
+                "radius": "28%",
+                "center": [
+                    "75%",
+                    "35%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 1000,
+            "bottom": "-5px",
+            "data": [
+                "1862",
+                "1864",
+                "1867",
+                "1873",
+                "1874",
+                "1875",
+                "1876",
+                "1877",
+                "1878",
+                "1879",
+                "1880",
+                "1881",
+                "1882",
+                "1883",
+                "1884",
+                "1885",
+                "1886",
+                "1887",
+                "1888",
+                "1889",
+                "1890"
+            ]
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "Post-Impressionism",
+                    "Realism",
+                    "Neo-Impressionism",
+                    "Japonism",
+                    "Cloisonnism",
+                    "Impressionism"
+                ]
+            }
+        ],
+        "yAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        1,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1862\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1864\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1867\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        2,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1873\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1874\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1875\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        1,
+                        4,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 4
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1876\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1877\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1878\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        4,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 4
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1879\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        0,
+                        3,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 3
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1880\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        4,
+                        74,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 4
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 74
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1881\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        5,
+                        186,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 5
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 186
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1882\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        1,
+                        125,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 125
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1883\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        2,
+                        102,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 102
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1884\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        16,
+                        312,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 16
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 312
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1885\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        107,
+                        54,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 107
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 54
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1886\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        133,
+                        9,
+                        34,
+                        2,
+                        0,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 133
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 9
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 34
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 2
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1887\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        273,
+                        1,
+                        0,
+                        13,
+                        5,
+                        1
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 273
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 13
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 5
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 1
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1888\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        202,
+                        1,
+                        0,
+                        0,
+                        3,
+                        1
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 202
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 3
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 1
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1889\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "\u4f5c\u54c1\u6570\u91cf",
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ],
+                    "selected": {
+                        "\u4f5c\u54c1\u6570\u91cf": true
+                    },
+                    "show": true,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "\u4f5c\u54c1\u6570\u91cf",
+                    "legendHoverLink": true,
+                    "data": [
+                        232,
+                        3,
+                        0,
+                        1,
+                        3,
+                        0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "\u4f5c\u54c1\u98ce\u683c\u5360\u6bd4",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Post-Impressionism",
+                            "value": 232
+                        },
+                        {
+                            "name": "Realism",
+                            "value": 3
+                        },
+                        {
+                            "name": "Neo-Impressionism",
+                            "value": 0
+                        },
+                        {
+                            "name": "Japonism",
+                            "value": 1
+                        },
+                        {
+                            "name": "Cloisonnism",
+                            "value": 3
+                        },
+                        {
+                            "name": "Impressionism",
+                            "value": 0
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "75%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "Post-Impressionism",
+                        "Realism",
+                        "Neo-Impressionism",
+                        "Japonism",
+                        "Cloisonnism",
+                        "Impressionism"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "1890\u68b5\u9ad8\u4f5c\u54c1\u7c7b\u578b",
+                    "subtext": "\u91d1\u7199\u95fb19120269",
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        }
+    ]
+};
+        chart_fccc04ad979e4793800adeacb483066c.setOption(option_fccc04ad979e4793800adeacb483066c);
+    </script>
+</body>
+</html>
